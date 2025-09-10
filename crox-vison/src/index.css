@@ -3,15 +3,19 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: font1;
-    src: url('/fonts/Lausanne-300.woff2');
+  font-family: font1;
+  src: url('/fonts/Lausanne-300.woff2');
 }
 
 @font-face {
-    font-family: font2;
-    src: url('/fonts/Lausanne-500.woff2');
+  font-family: font2;
+  src: url('/fonts/Lausanne-500.woff2');
 }
 
-html, body {
+html,
+body {
+  margin: 0;
+  padding: 0;
   overflow-x: hidden;
 }
+
